@@ -1,0 +1,35 @@
+aside {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside h1 {
+    padding: 15px;
+    font-size: 1.4em;
+}
+
+
+aside a {
+    padding: 10px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#sidebar .selected{
+    border-left: 3px solid #329932;
+    height: 6%;
+}
+
+#sidebar a {
+    color: #cccccc;
+}
+
+#sidebar a:hover {
+    color: #fff;
+}
+
+#sidebar .fa-spotify{
+    font-size: 1.5em;
+}
